@@ -60,6 +60,26 @@ A 2-minute walkthrough showing the full incident flow: Slack alert → CLI inves
 
 ---
 
+## 📸 Screenshots
+
+### Terminal — One command, full investigation
+
+![Terminal investigation](docs/screenshots/terminal.png)
+
+### Incident Dossier — Time Circuits + Verdict
+
+![Incident Dossier](docs/screenshots/dossier-top.png)
+
+### Slack — Native OM alert + Chronos rich report
+
+![Slack delivery](docs/screenshots/slack.png)
+
+### Claude Desktop — MCP invocation in natural language
+
+![Claude Desktop MCP](docs/screenshots/claude-desktop.png)
+
+---
+
 ## ✨ Four Surfaces, One Command
 
 Chronos publishes the same investigation to four distinct surfaces. Same brain, different ways in.
