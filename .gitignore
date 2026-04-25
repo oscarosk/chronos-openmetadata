@@ -1,0 +1,38 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Hackathon scratch / experiments
+recon/
+
+# OpenMetadata local stack (huge, machine-specific)
+openmetadata/docker-volume/
+
+# Local outputs (regenerated on every investigate run)
+replay.html
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Smoke test artifacts
+*.smoke.log
