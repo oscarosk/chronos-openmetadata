@@ -11,7 +11,7 @@
 
 **One command. Twelve seconds. Four surfaces. The difference between a 2 a.m. wake-up call and a 2 a.m. resolution.**
 
-[Demo Video](#-demo) · [Quickstart](#-quickstart-60-seconds) · [How It Works](#-how-it-works) · [The Surfaces](#-four-surfaces-one-command)
+[Demo Video](https://youtu.be/THHkBzvL3l8) · [Quickstart](#-quickstart-60-seconds) · [How It Works](#-how-it-works) · [The Surfaces](#-four-surfaces-one-command)
 
 </div>
 
@@ -54,9 +54,11 @@ The LLM is prompted with strict **causal ranking rules** (schema changes can cau
 
 ## 🎬 Demo
 
-> **Demo video:** _link added on submission day_
+[![Watch the demo](https://img.youtube.com/vi/THHkBzvL3l8/maxresdefault.jpg)](https://youtu.be/THHkBzvL3l8)
 
-A 2-minute walkthrough showing the full incident flow: Slack alert → CLI investigation → Incident Dossier → Slack delivery → Claude Desktop MCP invocation.
+**▶️ [Watch the 2-minute demo on YouTube](https://youtu.be/THHkBzvL3l8)**
+
+A walkthrough showing the full incident flow: OpenMetadata-native Slack alert → CLI investigation → Incident Dossier → rich Slack delivery → Claude Desktop MCP invocation.
 
 ---
 
@@ -337,7 +339,6 @@ chronos-openmetadata/
 
 ## 🔐 Security Notes
 
-- Secrets (`OM_TOKEN`, `OPENAI_API_KEY`, `SLACK_WEBHOOK_URL`) live in `.env`, never committed
 - Slack webhook delivery is best-effort and non-fatal — if the webhook fails, Chronos still completes the investigation and returns a report on every other surface
 - The MCP server runs over stdio (subprocess), no network port exposed
 - All OpenMetadata API calls use JWT authentication
